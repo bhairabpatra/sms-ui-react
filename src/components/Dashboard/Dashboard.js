@@ -3,7 +3,7 @@ import {Link, Outlet } from 'react-router-dom';
 
 function Dashboard({match}) {
   return (
-    <div>
+    <div className='container p-3'>
         <h2>Dashboard</h2>
       <nav>
         <ul>

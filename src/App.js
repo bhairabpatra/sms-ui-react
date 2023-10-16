@@ -1,20 +1,20 @@
 import "./App.css";
 import React from "react";
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Home from "./components/Home/Home";
+import About from "./components/Aboute/About";
+import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Navigation from "./Navigation";
-import Profile from "./components/Profile";
-import Settings from "./components/Settings";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Navigation from "./Navigation/Navigation";
+import Profile from "./components/Profile/Profile";
+import Settings from "./components/Settings/Settings";
 import PageNotFound from "./components/pagenotfound/PageNotFound";
 function App() {
   return (
-    <div>
+    <div >
       <Router>
         <Navigation />
-        <div className="App">
+        <div className="container App">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="about" element={<About />} />
