@@ -1,0 +1,28 @@
+JSON Server
+--------------------
+npm install -g json-server
+
+db.json
+
+json-server --watch db.json
+
+Dashboard
+----------------
+Student list
+Course List 
+Teacher List
+
+
+End point
+---------------
+  http://localhost:3000/courses
+  http://localhost:3000/home
+  http://localhost:3000/about
+  http://localhost:3000/contact
+
+
+
+  How to run app
+  ---------------------
+  json-server --watch db.json
+  npm start
