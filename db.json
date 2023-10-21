@@ -1,57 +1,255 @@
 {
   "courses": [
     {
-        "id": 4,
-        "branchType": "Power  engineering",
-        "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
+      "id": 4,
+      "branchType": "Power  engineering",
+      "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
     },
     {
-        "id": 5,
-        "branchType": "Test  engineering",
-        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
+      "id": 5,
+      "branchType": "Test  engineering",
+      "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     },
     {
-        "id": 8,
-        "branchType": "Power  engineering",
-        "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
+      "id": 8,
+      "branchType": "Power  engineering",
+      "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
     },
     {
-        "id": 9,
-        "branchType": "Power  engineering",
-        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
+      "id": 9,
+      "branchType": "Power  engineering",
+      "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     },
     {
-        "id": 10,
-        "branchType": "Power  engineering",
-        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
+      "id": 10,
+      "branchType": "Power  engineering",
+      "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     }
-],
-"home": [
-  {
+  ],
+  "home": [
+    {
       "id": 1,
       "imgUrl": "https://rtosoftware.eskilled.com.au/wp-content/uploads/2021/11/ESK-Article-SMS-110421-01-scaled.jpg",
       "title": "Student Management System",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
-  }
-],
-"about": [
-  {
+    }
+  ],
+  "about": [
+    {
       "id": 1,
       "imgUrl": "https://cdn.techjockey.com/blog/wp-content/uploads/2020/07/Whats-the-Purpose-of-Student-Information-Systems_banner.png ",
       "title": "Student Information",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
-  }
-],
-"contact": [
-  {
+    }
+  ],
+  "contact": [
+    {
       "id": 1,
       "imgUrl": "https://st2.depositphotos.com/1826664/7176/i/950/depositphotos_71768271-stock-photo-contact-us-squares-separator-blue.jpg",
       "title": "Contact Us",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
-  }
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "name": "Shree",
+      "gender": "Male",
+      "phone": "7503392449",
+      "email": "Shree@gmail.com",
+      "valid": true,
+      "registrationId": "bhairab449",
+      "studentDetails": {
+        "id": 12,
+        "firstName": "Shree",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+      },
+      "address": [
+        {
+          "id": 12,
+          "permanentAddress": "Muniguda",
+          "tempAddress": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Galu",
+      "gender": "Male",
+      "phone": "7503392449",
+      "email": "gale@gmail.com",
+      "valid": true,
+      "registrationId": "bhairab244",
+      "studentDetails": {
+        "id": 13,
+        "firstName": "Galu",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+      },
+      "address": [
+        {
+          "id": 13,
+          "permanentAddress": "Muniguda",
+          "tempAddress": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "kaka",
+      "gender": "Male",
+      "phone": "7503392449",
+      "email": "kaka@gmail.com",
+      "valid": true,
+      "registrationId": "bhairab2449",
+      "studentDetails": {
+        "id": 14,
+        "firstName": "kaka",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+      },
+      "address": [
+        {
+          "id": 14,
+          "permanentAddress": "Muniguda",
+          "tempAddress": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "priyanka",
+      "gender": "female",
+      "phone": "7503392449",
+      "email": "bhrptr4@gmail.com",
+      "valid": true,
+      "registrationId": "priyanka2449",
+      "studentDetails": {
+        "id": 15,
+        "firstName": "bhairab",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+      },
+      "address": [
+        {
+          "id": 15,
+          "permanentAddress": "Muniguda",
+          "tempAddress": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Gugi",
+      "gender": "female",
+      "phone": "7503392199",
+      "email": "gugi@gmail.com",
+      "valid": true,
+      "registrationId": "priyanka2199",
+      "studentDetails": {
+        "id": 16,
+        "firstName": "gugi",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+      },
+      "address": [
+        {
+          "id": 16,
+          "permanentAddress": "Muniguda",
+          "tempAddress": null
+        }
+      ]
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "sss",
+      "email": "ss@gmail.com",
+      "phone": "7503392449",
+      "qualification": "ssssss",
+      "subject": []
+    },
+    {
+      "id": 2,
+      "name": "sss",
+      "email": "ss@gmail.com",
+      "phone": "7503392449",
+      "qualification": "ssssss",
+      "subject": []
+    },
+    {
+      "id": 3,
+      "name": "bhairab",
+      "email": "patra@gmail.com",
+      "phone": "7503392449",
+      "qualification": "Mthc",
+      "subject": [
+        {
+          "id": 1,
+          "subName": "JAVA",
+          "subDescription": "Java is simple"
+        },
+        {
+          "id": 2,
+          "subName": "C++",
+          "subDescription": "C++ is ooL"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "bhairab patra",
+      "email": "patra@gmail.com",
+      "phone": "7503392449",
+      "qualification": "Mthc",
+      "subject": [
+        {
+          "id": 3,
+          "subName": "spring boot MS",
+          "subDescription": "Java is simple"
+        },
+        {
+          "id": 4,
+          "subName": "CSS",
+          "subDescription": "C++ is ooL"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "bhairab",
+      "email": "patra@gmail.com",
+      "phone": "7503392449",
+      "qualification": null,
+      "subject": []
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "bhairab",
+      "email": "patra@gmail.com",
+      "password": "12345",
+      "phone": "7503392449",
+      "role": "bhairab"
+    },
+    {
+      "id": 2,
+      "name": "Muna",
+      "email": "muna@gmail.com",
+      "password": "12345",
+      "phone": "7503392449",
+      "role": "Admin"
+    }
   ]
-   
 }

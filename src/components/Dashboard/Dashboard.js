@@ -3,6 +3,7 @@ import {Link, Outlet } from 'react-router-dom';
 
 function Dashboard({match}) {
   return (
+
     <div className='container p-3'>
         <h2>Dashboard</h2>
         <div className='row'>
@@ -26,12 +27,9 @@ function Dashboard({match}) {
            </div>
 
         </div>
-     
-       
-      
-     
+    
     </div>
-  )
+  );
 }
 
 export default Dashboard
