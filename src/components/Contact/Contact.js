@@ -1,16 +1,38 @@
-import React from 'react'
+import React from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
+import "./Contact.css";
 
 function Contact() {
+  const apiEndpoint = "http://localhost:3000/contact";
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(apiEndpoint)
+      .then((res) => {
+        console.log("getting froom", res.data);
+        setData(res.data);
+      })
+      .catch((err) => {
+        console.log("error", err);
+      });
+  }, []);
+  
   return (
     <div>
-    <h1>
-       Contact
-    </h1>
-    <p>
-        Welcome to the Contact Page
-    </p>
-</div>
-  )
+      <div className="row">
+        <div className="image col-md-6">
+          <img src={data[0]?.imgUrl} alt="contact"/>
+        </div>
+        <div className="col-md-6">
+          <h5><b>{data[0]?.title}</b></h5> 
+          <p>{data[0]?.shortDesc}</p>
+          <p>{data[0]?.LongDesc}</p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

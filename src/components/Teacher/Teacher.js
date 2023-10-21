@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Profile() {
+function Teacher() {
   return (
     <div>
-    <h3>Profile</h3>
+    <h3>Teacher</h3>
     <p>User profile content goes here.</p>
   </div>
   )
 }
 
-export default Profile
+export default Teacher

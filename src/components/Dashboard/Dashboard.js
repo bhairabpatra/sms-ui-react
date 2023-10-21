@@ -8,10 +8,13 @@ function Dashboard({match}) {
       <nav>
         <ul>
           <li>
-            <Link to="profile">Profile</Link>
+            <Link to="courses">Courses</Link>
           </li>
           <li>
-            <Link to="settings">Settings</Link>
+            <Link to="student">Student</Link>
+          </li>
+          <li> 
+            <Link to="teacher">Teacher</Link>
           </li>
         </ul>
       </nav>

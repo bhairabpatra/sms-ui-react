@@ -3,33 +3,34 @@
     {
         "id": 4,
         "branchType": "Power  engineering",
-        "branchDescription": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
     },
     {
         "id": 5,
         "branchType": "Test  engineering",
-        "branchDescription": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     },
     {
         "id": 8,
         "branchType": "Power  engineering",
-        "branchDescription": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        "branchDescription": "The generation,  electric motors, high-voltage engineering and power electronics."
     },
     {
         "id": 9,
         "branchType": "Power  engineering",
-        "branchDescription": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     },
     {
         "id": 10,
         "branchType": "Power  engineering",
-        "branchDescription": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        "branchDescription": "The generation, electric motors, high-voltage engineering and power electronics."
     }
 ],
 "home": [
   {
       "id": 1,
-      "imgUrl": " ",
+      "imgUrl": "https://rtosoftware.eskilled.com.au/wp-content/uploads/2021/11/ESK-Article-SMS-110421-01-scaled.jpg",
+      "title": "Student Management System",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
   }
@@ -37,7 +38,8 @@
 "about": [
   {
       "id": 1,
-      "imgUrl": " ",
+      "imgUrl": "https://cdn.techjockey.com/blog/wp-content/uploads/2020/07/Whats-the-Purpose-of-Student-Information-Systems_banner.png ",
+      "title": "Student Information",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
   }
@@ -45,7 +47,8 @@
 "contact": [
   {
       "id": 1,
-      "imgUrl": " ",
+      "imgUrl": "https://st2.depositphotos.com/1826664/7176/i/950/depositphotos_71768271-stock-photo-contact-us-squares-separator-blue.jpg",
+      "title": "Contact Us",
       "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
       "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
   }

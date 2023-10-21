@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Settings() {
+function Student() {
   return (
     <div>
-      <h3>Settings</h3>
+      <h3>Student</h3>
       <p>Application settings go here.</p>
     </div>
   )
 }
 
-export default Settings
+export default Student
