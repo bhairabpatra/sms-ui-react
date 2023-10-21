@@ -26,3 +26,72 @@ End point
   ---------------------
   json-server --watch db.json
   npm start
+
+ const test = [
+  {
+      "id": 1,
+      "imgUrl": " ",
+      "imgUrl": " https://rtosoftware.eskilled.com.au/wp-content/uploads/2021/11/ESK-Article-SMS-110421-01-scaled.jpg",
+      "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
+      "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+  },
+  {
+      "id": 2,
+      "imgUrl": " ",
+      "imgUrl": " https://rtosoftware.eskilled.com.au/wp-content/uploads/2021/11/ESK-Article-SMS-110421-01-scaled.jpg",
+      "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
+      "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+  }
+ ]
+
+ 
+
+ {
+    "data": [
+        {
+            "id": 1,
+            "imgUrl": "https://st2.depositphotos.com/1826664/7176/i/950/depositphotos_71768271-stock-photo-contact-us-squares-separator-blue.jpg",
+            "title": "Contact Us",
+            "shortDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics.",
+            "LongDesc": "The generation, transmission and distribution of electricity and the design and maintenance of devices such as transformers, switchgear, electric generators, electric motors, high-voltage engineering and power electronics."
+        }
+    ],
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "cache-control": "no-cache",
+        "content-length": "674",
+        "content-type": "application/json; charset=utf-8",
+        "expires": "-1",
+        "pragma": "no-cache"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "http://localhost:3000/contact"
+    },
+    "request": {}
+}

@@ -6,7 +6,7 @@ function Navigation() {
     <div className="">
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           SMS
         </a>
         <button
