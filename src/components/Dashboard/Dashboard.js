@@ -5,8 +5,9 @@ function Dashboard({match}) {
   return (
     <div className='container p-3'>
         <h2>Dashboard</h2>
-      <nav>
-        <ul>
+        <div className='row'>
+          <div className='col-md-3'>
+          <ul>
           <li>
             <Link to="courses">Courses</Link>
           </li>
@@ -17,8 +18,18 @@ function Dashboard({match}) {
             <Link to="teacher">Teacher</Link>
           </li>
         </ul>
-      </nav>
-      <Outlet />
+
+          </div>
+          <div className='col-md-9'>
+            <Outlet />
+            
+           </div>
+
+        </div>
+     
+       
+      
+     
     </div>
   )
 }

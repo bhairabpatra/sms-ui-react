@@ -24,6 +24,9 @@ function Courses() {
         <td>{data.id}</td>
         <td>{data.branchType}</td>
         <td>{data.branchDescription}</td>
+        <td><button className="btn btn-primary">Edit</button></td>
+        <td><button className="btn btn-danger">Delete</button></td>
+        <td><button className="btn btn-success">Create</button></td>
       </tr>
     );
   });
@@ -37,6 +40,9 @@ function Courses() {
             <th>ID</th>
             <th>BranchType</th>
             <th>BranchDescription</th>
+            <th>Edit</th>
+            <th>Delte</th>
+            <th>Create</th>
           </tr>
         </thead>
         <tbody>{array}</tbody>
