@@ -1,0 +1,24 @@
+.tpic-links ul li{
+    list-style-type: none;
+    
+   
+}
+.dashboard-links{
+    background-color: rgb(219, 218, 216);
+    height: 100vh;
+    color: black;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.nav-inks{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    border-radius: 4px ;
+    background-color: black;
+    width:87%;
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px 13px;
+    margin-right: 12px;
+}

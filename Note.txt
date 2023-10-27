@@ -95,3 +95,28 @@ End point
     },
     "request": {}
 }
+
+
+{
+    "id": 5,
+    "name": "Gugi",
+    "gender": "female",
+    "phone": "7503392199",
+    "email": "gugi@gmail.com",
+    "valid": true,
+    "registrationId": "priyanka2199",
+    "studentDetails": {
+        "id": 16,
+        "firstName": "gugi",
+        "lastName": "patra",
+        "dob": "7503392449",
+        "age": 12
+    },
+    "address": [
+        {
+            "id": 16,
+            "permanentAddress": "Muniguda",
+            "tempAddress": null
+        }
+    ]
+}

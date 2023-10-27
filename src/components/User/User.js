@@ -1,29 +1,33 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-function Courses() {
-  const apiEndpoint = "http://localhost:3000/courses";
-
-  const [data, setData] = useState([]);
+function User() {
+  const apiEndpoint = " http://localhost:3000/user";
+  const [user, setUser] = useState([]);
 
   useEffect(() => {
     axios
       .get(apiEndpoint)
       .then((res) => {
-        setData(res.data);
+        console.log("getting froom", res.data);
+        setUser(res.data);
       })
       .catch((err) => {
         console.log("error", err);
       });
   }, []);
 
-  const array = data.map((data) => {
+  const array = user.map((user) => {
     return (
       <tr>
-        <td>{data.id}</td>
-        <td>{data.branchType}</td>
-        <td>{data.branchDescription}</td>
+        <td> <Link to={`${user.id}`} > {user.id} </Link></td>
+        <td>{user.name}</td>
+        <td>{user.phone}</td>
+        <td>{user.email}</td>
+        <td>{user.password}</td>
+        <td>{user.role}</td>
         <td><button className="btn btn-primary">Edit</button></td>
         <td><button className="btn btn-danger">Delete</button></td>
         <td><button className="btn btn-success">Create</button></td>
@@ -33,13 +37,16 @@ function Courses() {
 
   return (
     <div>
-      <h5>Courses</h5>
+      <h3>User</h3>
       <table className="table table-striped">
         <thead>
           <tr>
             <th>ID</th>
-            <th>BranchType</th>
-            <th>BranchDescription</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Passwoord</th>
+            <th>Role</th>
             <th>Edit</th>
             <th>Delte</th>
             <th>Create</th>
@@ -51,4 +58,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default User;
