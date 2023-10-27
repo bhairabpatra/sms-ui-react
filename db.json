@@ -60,7 +60,7 @@
       "gender": "Male",
       "phone": "7503392449",
       "email": "Shree@gmail.com",
-      "valid": true,
+      "valid": "true",
       "registrationId": "bhairab449",
       "studentDetails": {
         "id": 12,
@@ -73,7 +73,7 @@
         {
           "id": 12,
           "permanentAddress": "Muniguda",
-          "tempAddress": null
+          "tempAddress": "null"
         }
       ]
     },
@@ -83,7 +83,7 @@
       "gender": "Male",
       "phone": "7503392449",
       "email": "gale@gmail.com",
-      "valid": true,
+      "valid": "true",
       "registrationId": "bhairab244",
       "studentDetails": {
         "id": 13,
@@ -96,7 +96,7 @@
         {
           "id": 13,
           "permanentAddress": "Muniguda",
-          "tempAddress": null
+          "tempAddress": "null"
         }
       ]
     },
@@ -106,7 +106,7 @@
       "gender": "Male",
       "phone": "7503392449",
       "email": "kaka@gmail.com",
-      "valid": true,
+      "valid": "true",
       "registrationId": "bhairab2449",
       "studentDetails": {
         "id": 14,
@@ -119,7 +119,7 @@
         {
           "id": 14,
           "permanentAddress": "Muniguda",
-          "tempAddress": null
+          "tempAddress": "null"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "gender": "female",
       "phone": "7503392449",
       "email": "bhrptr4@gmail.com",
-      "valid": true,
+      "valid": "true",
       "registrationId": "priyanka2449",
       "studentDetails": {
         "id": 15,
@@ -142,7 +142,7 @@
         {
           "id": 15,
           "permanentAddress": "Muniguda",
-          "tempAddress": null
+          "tempAddress": "null"
         }
       ]
     },
@@ -152,7 +152,7 @@
       "gender": "female",
       "phone": "7503392199",
       "email": "gugi@gmail.com",
-      "valid": true,
+      "valid": "true",
       "registrationId": "priyanka2199",
       "studentDetails": {
         "id": 16,
@@ -165,7 +165,7 @@
         {
           "id": 16,
           "permanentAddress": "Muniguda",
-          "tempAddress": null
+          "tempAddress": "null"
         }
       ]
     }
@@ -176,16 +176,20 @@
       "name": "sss",
       "email": "ss@gmail.com",
       "phone": "7503392449",
-      "qualification": "ssssss",
-      "subject": []
+      "qualification": "M.TECH",
+      "subject": "Physice",
+      "gender":"Male",
+      "review":"good"
     },
     {
       "id": 2,
       "name": "sss",
       "email": "ss@gmail.com",
       "phone": "7503392449",
-      "qualification": "ssssss",
-      "subject": []
+      "qualification": "M.B.A",
+      "subject": "Math",
+      "gender":"Male",
+      "review":"great"
     },
     {
       "id": 3,
@@ -193,45 +197,30 @@
       "email": "patra@gmail.com",
       "phone": "7503392449",
       "qualification": "Mthc",
-      "subject": [
-        {
-          "id": 1,
-          "subName": "JAVA",
-          "subDescription": "Java is simple"
-        },
-        {
-          "id": 2,
-          "subName": "C++",
-          "subDescription": "C++ is ooL"
-        }
-      ]
+      "subject": "Chemistry",
+      "gender":"female",
+      "review":"excelent"
     },
     {
       "id": 4,
-      "name": "bhairab patra",
+      "name": "bhairab ",
       "email": "patra@gmail.com",
       "phone": "7503392449",
       "qualification": "Mthc",
-      "subject": [
-        {
-          "id": 3,
-          "subName": "spring boot MS",
-          "subDescription": "Java is simple"
-        },
-        {
-          "id": 4,
-          "subName": "CSS",
-          "subDescription": "C++ is ooL"
-        }
-      ]
+      "subject": "English",
+      "gender":"Male",
+      "review":"good"
     },
     {
       "id": 5,
       "name": "bhairab",
       "email": "patra@gmail.com",
       "phone": "7503392449",
-      "qualification": null,
-      "subject": []
+      "qualification": "M.SC",
+      "subject": "Biology",
+      "gender":"female",
+      "review":"verygood"
+      
     }
   ],
   "user": [
@@ -241,12 +230,28 @@
       "email": "patra@gmail.com",
       "password": "12345",
       "phone": "7503392449",
-      "role": "bhairab"
+      "role": "Admin"
     },
     {
       "id": 2,
-      "name": "Muna",
+      "name": "bhairab",
       "email": "muna@gmail.com",
+      "password": "12345",
+      "phone": "7503392449",
+      "role": "Admin"
+    },
+    {
+      "id": 3,
+      "name": "Abhishek",
+      "email": "patra@gmail.com",
+      "password": "12345",
+      "phone": "7503392449",
+      "role": "Admin"
+    },
+    {
+      "id": 4,
+      "name": "Test",
+      "email": "patra@gmail.com",
       "password": "12345",
       "phone": "7503392449",
       "role": "Admin"
